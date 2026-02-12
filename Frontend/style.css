@@ -1,3 +1,57 @@
+/* Hero image inside shape */
+
+/* Bigger, fully visible hero image in circle */
+.hero-shape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+    width: 480px;
+    height: 480px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 50%;
+    opacity: 1;
+    animation: float 3s ease-in-out infinite;
+    overflow: visible;
+}
+.hero-img-in-shape {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    opacity: 1;
+    background: transparent;
+    transition: transform 0.3s, box-shadow 0.3s;
+    z-index: 2;
+}
+.hero-shape:hover .hero-img-in-shape {
+    transform: scale(1.08) rotate(-2deg);
+    box-shadow: 0 8px 32px rgba(102,126,234,0.25), 0 1.5px 8px rgba(118,75,162,0.18);
+}
+@media (max-width: 1100px) {
+    .hero-shape {
+        width: 340px;
+        height: 340px;
+    }
+    .hero-img-in-shape {
+        width: 240px;
+        height: 240px;
+    }
+}
+@media (max-width: 700px) {
+    .hero-shape {
+        width: 200px;
+        height: 200px;
+    }
+    .hero-img-in-shape {
+        width: 120px;
+        height: 120px;
+    }
+}
 /* Hamburger Sidebar CSS Menu */
 .nav-toggle {
     display: none;
