@@ -42,9 +42,12 @@ Frontend/
 - **Social Links:** Update the URLs in the footer for your own profiles
 
 ## Screenshots
+![Desktop View]
+<img width="1813" height="877" alt="image" src="https://github.com/user-attachments/assets/ec7368ee-3969-4f68-9221-21e74af84592" />
 
-![Desktop View](screenshots/desktop.png)
-![Mobile View](screenshots/mobile.png)
+![Mobile View]
+<img width="388" height="707" alt="image" src="https://github.com/user-attachments/assets/502d84cf-4f74-45b6-9f0a-5a7c981e54c9" />
+
 
 ## License
 
